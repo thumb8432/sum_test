@@ -3,9 +3,6 @@
 int sum(int n)
 {
     int res = 0, i;
-    for(i=1;i<=n;i++)
-    {
-        res += i;
-    }
+    res = n * (n+1) / 2;
     return res;
 }
